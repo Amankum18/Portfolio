@@ -1,0 +1,533 @@
+* {
+    margin: 0 0;
+    font-family: 'Caveat', cursive;
+    font-size: large;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+}
+
+.main-nav-links {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.main-nav {
+    margin-top: 0.8rem;
+    margin-bottom: 1.5rem;
+}
+
+.main-menu-profile {
+    margin-top: 2rem;
+}
+
+.main-nav-links li {
+    margin-bottom: 0.3rem;
+}
+
+.main-nav-links a {
+    padding: 0.5rem;
+    text-align: center;
+    text-transform: uppercase;
+    color: black;
+    display: inline-block;
+    width: 100%;
+}
+
+#container {
+    width: 70%;
+    margin: 0 auto;
+    margin-top: 0;
+    margin-right: 5%;
+    margin-left: 25%;
+}
+
+.row {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.row .box {
+    width: 100%;
+}
+
+i {
+    color: black;
+}
+
+#menu {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 3%;
+    background-color: gray;
+    height: 100%;
+}
+
+#main-menu {
+    position: fixed;
+    top: 0;
+    left: 3%;
+    width: 15%;
+    background-color: rgba(128, 128, 128, 0.226);
+    height: 100%;
+}
+
+.main-nav a:hover {
+    background-color: darkgrey;
+    color: white;
+}
+
+#main-menu img {
+    display: block;
+    width: 100%;
+}
+
+#main-menu h2 {
+    margin-top: 1rem;
+    font-size: 1.5rem;
+}
+
+#social {
+    text-align: center;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+#social a {
+    text-align: center;
+    display: inline-block;
+    width: 30%;
+}
+
+#social i {
+    font-size: 1.3rem;
+}
+
+#social i:hover {
+    color: black;
+    font-weight: bold;
+}
+
+#main-photo {
+    height: 30%;
+}
+
+.height1 {
+    height: 520px;
+}
+
+.height2 {
+    height: 550px;
+}
+
+#next {
+    margin: 0 auto;
+    text-align: center;
+    height: 50px;
+}
+
+#next a {
+    line-height: 50px;
+    text-decoration: none;
+    font-size: medium;
+    color: black;
+    padding: 8px 17px;
+}
+
+#next a:hover,
+.active {
+    background-color: black;
+    color: white;
+}
+
+#next #first {
+    color: white;
+}
+
+#about {
+    width: 100%;
+    background-color: rgb(65, 65, 65);
+    text-align: center;
+}
+
+#about h2,
+h5,
+h4 {
+    line-height: 50px;
+    text-transform: capitalize;
+    color: white;
+    font-size: 1.4em;
+}
+
+#about img {
+    width: 50%;
+    height: auto;
+}
+
+.about-text {
+    width: 60%;
+    text-align: justify;
+    margin: 2.5rem auto;
+    padding: 1rem;
+    font-size: large;
+    color: rgba(245, 245, 245, 0.89);
+}
+
+.about-text p {
+    word-spacing: 3px;
+    line-height: 1.8rem;
+    margin: 15px auto;
+}
+
+.skills__container {
+    width: 60%;
+    margin: 30px auto;
+    text-align: left;
+    font-size: large;
+    color: rgba(245, 245, 245, 0.89);
+}
+
+.skills__container p {
+    text-transform: capitalize;
+    letter-spacing: 3px;
+}
+
+.resumeBtn {
+    cursor: pointer;
+    padding: 12px 24px;
+    font-size: 1rem;
+    border: 0;
+}
+
+.resumeBtn:hover {
+    background-color: darkgray;
+}
+
+table {
+    border: 0px;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+th {
+    padding: 30px;
+    font-size: 1.5em;
+    background-color: black;
+    color: darkgray;
+}
+
+td {
+    padding: 15px;
+}
+
+th,
+td {
+    width: 1%;
+    text-align: center;
+    border: 1px solid gray;
+}
+
+#table1 h2 {
+    color: black;
+}
+
+#table2 h2 {
+    color: black;
+}
+
+.signUpBtn {
+    padding: 12px 24px;
+    border: 0;
+    background-color: gray;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+.signUpBtn:hover {
+    background-color: rgba(133, 133, 133, 0.479);
+}
+
+.charge-header {
+    margin: 1.5rem;
+}
+
+th:hover {
+    color: white;
+}
+
+#table1:hover,
+#table2:hover {
+    background-color: whitesmoke;
+}
+
+.price-tables {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 80%;
+    margin: 1rem auto;
+}
+
+.price-table {
+    width: 70%;
+    margin: 0 1rem;
+    background-color: darkgrey;
+    table-layout: auto;
+}
+
+.last-TableColumn {
+    background-color: rgb(200, 200, 200);
+}
+
+#contact {
+    background-color: rgb(221, 221, 221);
+    width: 100%;
+}
+
+#main-contact {
+    text-align: center;
+    margin: 0 auto;
+    width: 60%;
+    text-align: justify;
+    background-color: rgb(221, 221, 221);
+}
+
+form {
+    width: 100%;
+    display: inline-block;
+}
+
+input:focus,
+textarea:focus {
+    outline: none;
+}
+
+#main-contact input {
+    width: 100%;
+    padding: 0.5rem;
+    margin: 15px auto;
+    font-size: medium;
+    border: 0;
+}
+
+.sendMessageBtn {
+    width: 100%;
+    margin: 15px auto;
+    color: white;
+    background-color: black;
+    padding: 10px 0;
+    font-size: medium;
+    border: 0;
+    cursor: pointer;
+}
+
+textarea {
+    width: 100%;
+    height: 10rem;
+    border: 0;
+}
+
+#main-contact h2 {
+    text-align: center;
+    line-height: 3rem;
+}
+
+#main-contact h3 {
+    text-transform: capitalize;
+}
+
+footer {
+    background-color: rgb(121, 121, 121);
+    padding: 50px 24px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+footer h2 {
+    margin: 15px 0;
+}
+
+footer #box2 h4 {
+    width: 50px;
+}
+
+#box2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+#box3 a {
+    color: white;
+    color: white;
+    width: 100%;
+    display: inline-block;
+    font-size: 1rem;
+}
+
+#box3 p {
+    display: inline-block;
+    padding: 6px;
+    background-color: rgb(75, 74, 74);
+    margin: 5px;
+}
+
+.travel-info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.travel-img {
+    width: 20%;
+}
+
+.travel-img img {
+    width: 100%;
+    height: 70px;
+}
+
+.travel-info-text {
+    width: 60%;
+}
+
+#createdBy {
+    background-color: black;
+    text-align: center;
+    color: white;
+    padding: 1rem;
+}
+
+.box-first {
+    width: 100%;
+    background-color: darkgray;
+    margin: 20px auto;
+}
+
+.box-second {
+    background-color: whitesmoke;
+    color: black;
+    text-align: center;
+}
+
+img {
+    width: 100%;
+    height: 100%;
+}
+
+@media(max-width:1300px) {
+    #main-menu {
+        width: 19%;
+    }
+    .price-tables {
+        width: 100%;
+    }
+    .price-table {
+        width: 100%;
+    }
+    .about-text,
+    .skills__container,
+    #main-contact {
+        width: 80%;
+    }
+    .height2,
+    .height1 {
+        height: 400px;
+    }
+    .row {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media(max-width:992px) {
+    #main-menu,
+    #menu {
+        display: none;
+        position: absolute;
+        width: 0;
+    }
+    #container {
+        width: 100%;
+        margin: 0;
+    }
+    #main-contact {
+        width: 80%;
+        margin: 0 auto;
+    }
+    .price-tables,
+    .skills__container,
+    .about-text {
+        width: 80%;
+    }
+    .about-text,
+    .skills__container {
+        margin: 20px auto;
+    }
+    footer {
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .travel-img img {
+        height: 100px;
+    }
+    /* footer #box1,
+    footer #box2,
+    footer #box3 {
+        width: 100%;
+        padding: 0;
+    } */
+}
+
+@media(max-width:768px) {
+    .skills__container {
+        width: 80%;
+    }
+    .price-tables {
+        width: 90%;
+    }
+    .price-table {
+        margin: 0;
+    }
+}
+
+@media(max-width:576px) {
+    .box,
+    #about img,
+    .skills__container button,
+    .price-tables {
+        width: 100%;
+    }
+    .about-text,
+    .skills__container {
+        width: 90%;
+    }
+    .price-table {
+        width: 80%;
+        margin-top: 1rem;
+    }
+    #about #charge {
+        flex-direction: column;
+    }
+    .resumeBtn {
+        font-size: 1rem;
+    }
+    .height2,
+    .height1 {
+        height: 500px;
+    }
+    .row {
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .row .box {
+        width: 90%;
+        margin: 0 auto;
+        height: auto;
+    }
+    .travel-img img {
+        height: 70px;
+    }
+}
